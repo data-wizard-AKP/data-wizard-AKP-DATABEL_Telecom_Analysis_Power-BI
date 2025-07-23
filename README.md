@@ -1,4 +1,11 @@
 ## 📘 Project Overview
+## 🚀 Project Badges
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-Report-informational)](https://app.powerbi.com/reportEmbed?reportId=b9487d77-09d3-454a-a374-41ba7158823c&autoAuth=true&ctid=8cb27e41-78c4-4e99-8761-8e71a6432b6a&actionBarEnabled=true&reportCopilotInEmbed=true)
+[![Live Report](https://img.shields.io/badge/Live_Report-View%20Now-success)](https://app.powerbi.com/reportEmbed?reportId=b9487d77-09d3-454a-a374-41ba7158823c&autoAuth=true&ctid=8cb27e41-78c4-4e99-8761-8e71a6432b6a&actionBarEnabled=true&reportCopilotInEmbed=true)
+[![Data Rows](https://img.shields.io/badge/Rows-6687-orange)](#dataset-overview)
+[![Dynamic RLS](https://img.shields.io/badge/RLS-Dynamic%20(USERPRINCIPALNAME)-purple)](#security-features)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 This project delves into a simulated dataset from **Databel**, a fictional telecommunications company, to analyze and predict customer churn. Customer churn—the rate at which customers stop doing business with a company—presents a significant challenge for telecom providers, directly impacting revenue and growth.
 
