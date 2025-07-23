@@ -124,7 +124,7 @@ The Power BI report is organized into 10 analytical sections:
 # 📊 Customer Churn Analysis – Power BI Report
 
 🔗 **Live Interactive Report**  
-[View the embedded Power BI report](https://app.powerbi.com/reportEmbed?reportId=b9487d77-09d3-454a-a374-41ba7158823c&autoAuth=true&ctid=8cb27e41-78c4-4e99-8761-8e71a6432b6a&actionBarEnabled=true&reportCopilotInEmbed=true)
+[View the embedded Power BI report](https://app.powerbi.com/reportEmbed?reportId=b9487d77-09d3-454a-a374-41ba7158823c&autoAuth=true&ctid=8cb27e41-78c4-4e99-8761-8e71a6432b6a)
 
 ---
 
