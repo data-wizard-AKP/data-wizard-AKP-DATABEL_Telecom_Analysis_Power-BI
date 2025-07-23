@@ -127,7 +127,7 @@ The Power BI report is organized into 10 analytical sections:
 [View the live Power BI report](https://app.powerbi.com/reportEmbed?reportId=b9487d77-09d3-454a-a374-41ba7158823c&autoAuth=true&ctid=8cb27e41-78c4-4e99-8761-8e71a6432b6a)
 
 
-[View the Power BI report without login](https://github.com/data-wizard-AKP/data-wizard-AKP-DATABEL_Telecom_Analysis_Power-BI/blob/main/Customer_Churn_Anlysis.pptx)
+[View the Power BI report without login](https://github.com/data-wizard-AKP/data-wizard-AKP-DATABEL_Telecom_Analysis_Power-BI/blob/main/Customer_Churn_Anlysis.pdf)
 
 ---
 
