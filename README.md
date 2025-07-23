@@ -48,7 +48,7 @@ The Power BI report is built on a star schema with clearly defined dimension and
 |------------------------|------------|----------------------------------------------------------------------|
 | `Customer`             | Dimension  | Contains customer attributes like ID, gender, age, tenure, contract  |
 | `Geographic`           | Dimension  | Includes location-based data such as region, state, and city         |
-| `UserRegionMapping`    | Dimension  | Maps customers to geographic regions for segmentation                |
+| `UserRegionMapping`    | Dimension  | Maps Regional Managers to geographic regions for implementing RLS                |
 | `Databel - Data`       | Fact       | Core transactional table with usage metrics, billing details, churn  |
 
 
@@ -85,6 +85,21 @@ The Power BI report is organized into 10 analytical sections:
 - 📶 **Unlimited Plan Users** are more loyal  
 - 🌍 **International Callers** show elevated churn  
 - 👥 **Young (18–25) and Senior (60+) Age Groups** are more likely to leave
+- --
+## 🔐 Security Features
+
+- **Dynamic Row-Level Security (RLS)** is implemented using the `UserRegionMapping` table and the DAX function `USERPRINCIPALNAME()`.  
+  This ensures that each **Regional Manager** accessing the report sees only the data relevant to their assigned geographic region—automatically filtered based on their login credentials.
+
+### 🧠 How It Works
+
+- The `UserRegionMapping` table contains mappings between user email addresses and their assigned regions.
+- A DAX filter rule is applied to the `Geographic` or `Customer` table:
+  ```DAX
+  [Email] = USERPRINCIPALNAME()
+
+
+
 
 ---
 
